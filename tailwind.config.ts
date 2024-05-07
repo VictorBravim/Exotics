@@ -9,7 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        "yellow-custom": "#E39202"
+        "yellow-custom": "#E39202",
+        "yellow-custom2": "#E57B05",
       },
     },
   },

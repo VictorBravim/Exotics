@@ -5,6 +5,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { CgArrowRight } from 'react-icons/cg';
+import { IoCarSport, IoCar } from "react-icons/io5";
 import Image from 'next/image';
 import { StaticImageData } from 'next/image';
 import A4 from '@/assets/A4.png'
@@ -32,29 +33,29 @@ const Carros = () => {
 
     const carros: LocalProps[] = [
         {
-            nome: 'Audi A4',
+            nome: 'Audi A4 Comum',
             imagem: A4,
-            preco: 'R$ 59,00',
+            preco: 'R$ 1.200',
         },
         {
-            nome: 'Audi R8',
+            nome: 'Audi R8 Esportivo',
             imagem: R8,
-            preco: 'R$ 89,00',
+            preco: 'R$ 5.000',
         },
         {
-            nome: 'Audi Q7',
+            nome: 'Audi Q7 Esportivo',
             imagem: Q7,
-            preco: 'R$ 32,00',
+            preco: 'R$ 4.000',
         },
         {
-            nome: 'Audi Q3',
+            nome: 'Audi Q3 Comun',
             imagem: Q3,
-            preco: 'R$ 29,00',
+            preco: 'R$ 2.000',
         },
         {
-            nome: 'Audi TT',
+            nome: 'Audi TT Esportivo',
             imagem: TT,
-            preco: 'R$ 25,00',
+            preco: 'R$ 2.500',
         },
     ];
 
@@ -87,8 +88,10 @@ const Carros = () => {
     return (
         <div id='carros' className="h-screen flex justify-center items-center mb-12 lg:mb-0 py-12 px-4 md:px-8 lg:px-16 bg-cover bg-center" style={{ backgroundImage: "url('/alugar.png')" }}>
             <div className="container mx-auto py-12">
-                <div className="flex justify-between items-center px-2">
-                    <h1 className="text-white text-4xl mb-4">Carros</h1>
+                <div className="flex justify-between items-center px-20">
+                    <h1 className="text-white text-4xl mb-4">Especiais de Hoje</h1>
+                    <h1 className="flex items-center gap-4 text-white text-xl mb-4"><span className='text-3xl text-yellow-custom2'><IoCarSport /></span>Esportivo</h1>
+                    <h1 className="flex items-center gap-4 text-white text-xl mb-4"><span className='text-3xl text-yellow-custom2'><IoCar /></span>Comum</h1>
                     <button className="text-white text-4xl" onClick={nextSlide}>
                         <CgArrowRight />
                     </button>
@@ -101,8 +104,14 @@ const Carros = () => {
                                 <div className="p-4 text-center">
                                     <h3 className="text-xl font-semibold text-white mb-2">{local.nome}</h3>
                                     <div className="flex items-center justify-center mb-2">
+                                        <h4 className='text-lg text-gray-500'>Ano 2024</h4>
                                     </div>
-                                    <p className="text-xl text-white">{local.preco}</p>
+                                    <div className="flex items-center justify-center gap-6">
+                                        <p className="text-xl text-yellow-custom2">{local.preco} <span className='text-gray-500'>/ Dia</span></p>
+                                        <button className="text-xl text-yellow-custom2">
+                                            Teste Drive
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
