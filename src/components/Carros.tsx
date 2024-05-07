@@ -99,7 +99,7 @@ const Carros = () => {
     };
 
     return (
-        <div id='produtos' className="h-screen container mx-auto mb-12 lg:mb-0 py-12 px-4 md:px-8 lg:px-16">
+        <div id='produtos' className="h-screen mb-12 lg:mb-0 py-12 px-4 md:px-8 lg:px-16 bg-cover bg-center" style={{ backgroundImage: "url('/alugar.png')" }}>
             <div className="container mx-auto py-12">
                 <div className="flex justify-between items-center px-2">
                     <h1 className="text-white text-4xl mb-4">Carros</h1>

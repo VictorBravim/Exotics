@@ -19,7 +19,7 @@ export default function Hero() {
         };
     }, []);
 
-    const backgroundImage = isMobile ? "/bg.png" : "/bg.png";
+    const backgroundImage = isMobile ? "/sobre.png" : "/sobre.png";
 
     return (
         <div id="sobre" className="h-screen flex flex-col lg:flex-row items-center justify-center px-8 lg:px-64 bg-cover bg-center"

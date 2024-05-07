@@ -2,7 +2,7 @@
 
 export default function Contato() {
     return (
-        <div id="contato" className="h-full lg:h-screen flex flex-col lg:flex-row items-center justify-center px-8 lg:px-64 gap-12 lg:gap-32 bg-cover bg-center" style={{ backgroundImage: "url('/bg.png')" }}>
+        <div id="contato" className="h-full lg:h-screen flex flex-col lg:flex-row items-center justify-center px-8 lg:px-64 gap-12 lg:gap-32 bg-cover bg-center" style={{ backgroundImage: "url('/contato.png')" }}>
             <div className="relative z-10 text-white w-full lg:w-1/2">
                 <div className="text-center lg:text-right mb-4">
                     <h1 className="text-5xl lg:text-9xl font-bold mb-3">Norishi</h1>
