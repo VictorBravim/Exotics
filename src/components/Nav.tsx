@@ -11,7 +11,7 @@ export default function Nav() {
         if (scrollPosition < window.innerHeight - 100) {
             setActiveSection('home');
         } else if (scrollPosition < 2 * window.innerHeight - 100) {
-            setActiveSection('produtos');
+            setActiveSection('carros');
         } else if (scrollPosition < 3 * window.innerHeight - 100) {
             setActiveSection('sobre');
         } else {

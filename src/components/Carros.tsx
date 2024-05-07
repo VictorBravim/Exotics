@@ -88,10 +88,10 @@ const Carros = () => {
     return (
         <div id='carros' className="h-screen flex justify-center items-center mb-12 lg:mb-0 py-12 px-4 md:px-8 lg:px-16 bg-cover bg-center" style={{ backgroundImage: "url('/alugar.png')" }}>
             <div className="container mx-auto py-12">
-                <div className="flex justify-between items-center px-20">
-                    <h1 className="text-white text-4xl mb-4">Especiais de Hoje</h1>
-                    <h1 className="flex items-center gap-4 text-white text-xl mb-4"><span className='text-3xl text-yellow-custom2'><IoCarSport /></span>Esportivo</h1>
-                    <h1 className="flex items-center gap-4 text-white text-xl mb-4"><span className='text-3xl text-yellow-custom2'><IoCar /></span>Comum</h1>
+                <div className="flex justify-between items-center px-5 lg:px-20">
+                    <h1 className="text-white text-3xl lg:text-4xl lg:mb-4">Especiais de Hoje</h1>
+                    <h1 className="hidden lg:flex items-center gap-4 text-white text-xl mb-4"><span className='text-3xl text-yellow-custom2'><IoCarSport /></span>Esportivo</h1>
+                    <h1 className="hidden lg:flex items-center gap-4 text-white text-xl mb-4"><span className='text-3xl text-yellow-custom2'><IoCar /></span>Comum</h1>
                     <button className="text-white text-4xl" onClick={nextSlide}>
                         <CgArrowRight />
                     </button>
