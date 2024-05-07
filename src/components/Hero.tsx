@@ -1,50 +1,19 @@
 // Hero.tsx
-'use client'
-import React from 'react';
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
-import Image from "next/image";
-import banner1 from '@/assets/banner1.png'
 
 export default function Hero() {
-    const sliderSettings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 10000,
-        adaptiveHeight: false,
-        arrows: false,
-        responsive: [
-            {
-                breakpoint: 768,
-                settings: {
-                    arrows: false,
-                },
-            },
-        ],
-    };
-
     return (
-        <div id='home' className="w-full flex">
-            <div className='w-1/2'>
-                <h1>Titulo</h1>
+        <div id="home" className="h-screen flex flex-col lg:flex-row items-center justify-center px-8 lg:px-64 lg:pt-0 pt-12 bg-cover bg-center" style={{ backgroundImage: "url('/bg.png')" }}>
+            <div className="relative z-10 text-white w-full lg:w-1/2">
+                <div className="text-left mb-4">
+                    <h1 className="text-8xl mb-6">LUXO ESTILO DE VIDA E POTENCIA</h1>
+                    <p className="text-sm md:text-lg text-gray-bg font-bold mb-4">Alugue carros potentes e luxuosos.</p>
+                    <p className="mb-4">R$ 5,000 / Por Dia</p>
+                    <button className="border border-yellow-custom p-2 px-4">
+                        Alugar
+                    </button>
+                </div>
             </div>
-            <div className='w-1/2'>
-                <Slider {...sliderSettings}>
-                    <div className='shadow-lg'>
-                        <Image src={banner1} className="bg-white w-full h-full object-cover pointer-events-none" alt="Slide 1" />
-                    </div>
-                    <div className='shadow-lg'>
-                        <Image src={banner1} className="bg-white w-full h-full object-cover pointer-events-none" alt="Slide 2" />
-                    </div>
-                    <div className='shadow-lg'>
-                        <Image src={banner1} className="bg-white w-full h-full object-cover pointer-events-none" alt="Slide 3" />
-                    </div>
-                </Slider>
+            <div className="w-full lg:w-1/2">
             </div>
         </div>
     );

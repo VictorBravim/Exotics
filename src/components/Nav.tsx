@@ -35,7 +35,7 @@ export default function Nav() {
 
     return (
         <nav className="bg-transparent p-8 fixed w-full z-20">
-            <div className="mx-5 flex flex-col lg:flex-row items-center justify-center lg:justify-between">
+            <div className="mx-56 flex flex-col lg:flex-row items-center justify-center lg:justify-between">
                 <div className="flex items-center text-white space-x-6 lg:space-x-12">
                     <button
                         className={`text-base md:text-lg ${activeSection === 'home' ? 'bg-transparent text-white py-2 border-b-2 border-white' : ''}`}
@@ -59,6 +59,9 @@ export default function Nav() {
                     </button>
                 </div>
                 <div className="flex items-center">
+                    <button className='bg-yellow-custom text-white p-2 px-4'>
+                        CONTATO
+                    </button>
                 </div>
             </div>
         </nav>
