@@ -1,8 +1,9 @@
 // Page.tsx
-import Nav from '@/components/Nav'
+import Nav from '@/components/Nav';
 import Hero from '@/components/Hero';
 import Carros from '@/components/Carros';
-import Sobre from '@/components/Sobre'
+import Sobre from '@/components/Sobre';
+import Contato from '@/components/Contato';
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Hero />
       <Carros />
       <Sobre />
+      <Contato />
     </main>
   );
 }
