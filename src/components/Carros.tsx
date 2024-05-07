@@ -14,20 +14,8 @@ interface LocalProps {
     nome: string;
     imagem: StaticImageData;
     preco: string;
-    rating: number;
 }
 
-const Rating = ({ rating }: { rating: number }) => {
-    const stars = [];
-    for (let i = 0; i < 5; i++) {
-        if (i < rating) {
-            stars.push(<FaStar key={i} color="gold" />);
-        } else {
-            stars.push(<FaStar key={i} color="gray" />);
-        }
-    }
-    return <div>{stars}</div>;
-};
 
 const Carros = () => {
     const [sliderIndex, setSliderIndex] = useState(0);
@@ -41,34 +29,29 @@ const Carros = () => {
 
     const carros: LocalProps[] = [
         {
-            nome: 'Onigiri Yatai',
+            nome: 'Audi A4',
             imagem: carro,
             preco: 'R$ 59,00',
-            rating: 4,
         },
         {
-            nome: 'California roll',
+            nome: 'Audi A4',
             imagem: carro,
             preco: 'R$ 89,00',
-            rating: 3,
         },
         {
-            nome: 'Yakisoba',
+            nome: 'Audi A4',
             imagem: carro,
             preco: 'R$ 32,00',
-            rating: 3,
         },
         {
-            nome: 'Sashimi Salmão',
+            nome: 'Audi A4',
             imagem: carro,
             preco: 'R$ 29,00',
-            rating: 3.5,
         },
         {
-            nome: 'Sashimi Makizushi',
+            nome: 'Audi A4',
             imagem: carro,
             preco: 'R$ 25,00',
-            rating: 4.2,
         },
     ];
 
@@ -76,7 +59,7 @@ const Carros = () => {
         dots: false,
         infinite: true,
         speed: 500,
-        slidesToShow: 4,
+        slidesToShow: 3,
         slidesToScroll: 1,
         draggable: true,
         swipeToSlide: true,
@@ -115,12 +98,6 @@ const Carros = () => {
                                 <div className="p-4 text-center">
                                     <h3 className="text-xl font-semibold text-white mb-2">{local.nome}</h3>
                                     <div className="flex items-center justify-center mb-2">
-                                        {[...Array(5)].map((_, starIndex) => (
-                                            <FaStar
-                                                key={starIndex}
-                                                color={starIndex < Math.round(local.rating) ? 'gold' : 'gray'}
-                                            />
-                                        ))}
                                     </div>
                                     <p className="text-xl text-white">{local.preco}</p>
                                 </div>

@@ -38,22 +38,22 @@ export default function Nav() {
             <div className="lg:mx-56 flex flex-col lg:flex-row items-center justify-center lg:justify-between">
                 <div className="flex items-center text-white space-x-6 lg:space-x-12">
                     <button
-                        className={`text-base md:text-lg ${activeSection === 'home' ? 'bg-transparent text-white py-2 border-b-2 border-white' : ''}`}
+                        className={`text-base md:text-lg ${activeSection === 'home' ? 'bg-transparent text-white py-2 border-b-2 border-yellow-custom' : ''}`}
                         onClick={() => scrollToSection('home')}>
                         HOME
                     </button>
                     <button
-                        className={`text-base md:text-lg ${activeSection === 'produtos' ? 'bg-transparent text-white py-2 border-b-2 border-white' : ''}`}
+                        className={`text-base md:text-lg ${activeSection === 'produtos' ? 'bg-transparent text-white py-2 border-b-2 border-yellow-custom' : ''}`}
                         onClick={() => scrollToSection('produtos')}>
                         PRODUTOS
                     </button>
                     <button
-                        className={`text-base md:text-lg ${activeSection === 'sobre' ? 'bg-transparent text-white py-2 border-b-2 border-white' : ''}`}
+                        className={`text-base md:text-lg ${activeSection === 'sobre' ? 'bg-transparent text-white py-2 border-b-2 border-yellow-custom' : ''}`}
                         onClick={() => scrollToSection('sobre')}>
                         SOBRE
                     </button>
                     <button
-                        className={`text-base md:text-lg ${activeSection === 'contato' ? 'bg-transparent text-white py-2 border-b-2 border-white' : ''}`}
+                        className={`text-base md:text-lg ${activeSection === 'contato' ? 'bg-transparent text-white py-2 border-b-2 border-yellow-custom' : ''}`}
                         onClick={() => scrollToSection('contato')}>
                         CONTATO
                     </button>

@@ -14,7 +14,7 @@ export default function Contato() {
                 </div>
             </div>
             <div className="w-full lg:w-1/2">
-                <div className="bg-blue-custom p-8 shadow-md">
+                <div className="bg-blue-custom p-8">
                     <h3 className="text-white text-2xl font-bold mb-4">Entre em Contato</h3>
                     <form className="space-y-4">
                         <div>
