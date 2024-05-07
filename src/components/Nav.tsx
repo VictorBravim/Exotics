@@ -1,7 +1,6 @@
 // Nav.tsx
 'use client'
 import { useState, useEffect } from 'react';
-import Image from "next/image";
 
 export default function Nav() {
     const [activeSection, setActiveSection] = useState('home');
