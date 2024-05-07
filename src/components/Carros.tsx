@@ -4,11 +4,14 @@ import React, { useState, useRef } from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import { FaStar } from 'react-icons/fa';
 import { CgArrowRight } from 'react-icons/cg';
 import Image from 'next/image';
 import { StaticImageData } from 'next/image';
-import carro from '@/assets/carro.png'
+import A4 from '@/assets/A4.png'
+import R8 from '@/assets/R8.png'
+import Q7 from '@/assets/Q7.png'
+import Q3 from '@/assets/Q3.png'
+import TT from '@/assets/TT.png'
 
 interface LocalProps {
     nome: string;
@@ -30,27 +33,27 @@ const Carros = () => {
     const carros: LocalProps[] = [
         {
             nome: 'Audi A4',
-            imagem: carro,
+            imagem: A4,
             preco: 'R$ 59,00',
         },
         {
-            nome: 'Audi A4',
-            imagem: carro,
+            nome: 'Audi R8',
+            imagem: R8,
             preco: 'R$ 89,00',
         },
         {
-            nome: 'Audi A4',
-            imagem: carro,
+            nome: 'Audi Q7',
+            imagem: Q7,
             preco: 'R$ 32,00',
         },
         {
-            nome: 'Audi A4',
-            imagem: carro,
+            nome: 'Audi Q3',
+            imagem: Q3,
             preco: 'R$ 29,00',
         },
         {
-            nome: 'Audi A4',
-            imagem: carro,
+            nome: 'Audi TT',
+            imagem: TT,
             preco: 'R$ 25,00',
         },
     ];
@@ -82,7 +85,7 @@ const Carros = () => {
     };
 
     return (
-        <div id='produtos' className="h-screen flex justify-center items-center mb-12 lg:mb-0 py-12 px-4 md:px-8 lg:px-16 bg-cover bg-center" style={{ backgroundImage: "url('/alugar.png')" }}>
+        <div id='carros' className="h-screen flex justify-center items-center mb-12 lg:mb-0 py-12 px-4 md:px-8 lg:px-16 bg-cover bg-center" style={{ backgroundImage: "url('/alugar.png')" }}>
             <div className="container mx-auto py-12">
                 <div className="flex justify-between items-center px-2">
                     <h1 className="text-white text-4xl mb-4">Carros</h1>

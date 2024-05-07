@@ -19,21 +19,18 @@ export default function Contato() {
                     <form className="space-y-4">
                         <div>
                             <label htmlFor="name" className="block text-sm font-bold text-yellow-custom">Nome:</label>
-                            <input type="text" id="name" name="name" className="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" />
+                            <input type="text" id="name" name="name" className="mt-1 block w-full bg-transparent border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" />
                         </div>
                         <div>
                             <label htmlFor="email" className="block text-sm font-bold text-yellow-custom">Email:</label>
-                            <input type="email" id="email" name="email" className="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" />
+                            <input type="email" id="email" name="email" className="mt-1 block w-full bg-transparent border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" />
                         </div>
                         <div>
                             <label htmlFor="message" className="block text-sm font-bold text-yellow-custom">Mensagem:</label>
-                            <textarea id="message" name="message" rows={4} className="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"></textarea>
+                            <textarea id="message" name="message" rows={4} className="mt-1 block w-full bg-transparent border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"></textarea>
                         </div>
                         <button type="submit" className="inline-block bg-yellow-custom text-blue-custom font-bold py-2 px-4 rounded-md hover:bg-blue-custom hover:text-white transition duration-300">Enviar</button>
                     </form>
-                    <div className="mt-4">
-                        <p className="text-sm text-white">Você também pode nos ligar em <span className="font-medium">+55 123 456 7890</span>.</p>
-                    </div>
                 </div>
             </div>
         </div>

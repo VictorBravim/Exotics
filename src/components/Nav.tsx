@@ -43,9 +43,9 @@ export default function Nav() {
                         HOME
                     </button>
                     <button
-                        className={`text-base md:text-lg ${activeSection === 'produtos' ? 'bg-transparent text-white py-2 border-b-2 border-yellow-custom' : ''}`}
-                        onClick={() => scrollToSection('produtos')}>
-                        PRODUTOS
+                        className={`text-base md:text-lg ${activeSection === 'carros' ? 'bg-transparent text-white py-2 border-b-2 border-yellow-custom' : ''}`}
+                        onClick={() => scrollToSection('carros')}>
+                        CARROS
                     </button>
                     <button
                         className={`text-base md:text-lg ${activeSection === 'sobre' ? 'bg-transparent text-white py-2 border-b-2 border-yellow-custom' : ''}`}
