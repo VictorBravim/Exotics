@@ -4,10 +4,13 @@ export default function Contato() {
     return (
         <div id="contato" className="h-full lg:h-screen flex flex-col lg:flex-row items-center justify-center px-8 lg:px-64 gap-12 lg:gap-32 bg-cover bg-center" style={{ backgroundImage: "url('/contato.png')" }}>
             <div className="relative z-10 text-white w-full lg:w-1/2">
-                <div className="text-center lg:text-right mb-4">
-                    <h1 className="text-5xl lg:text-9xl font-bold mb-3">Norishi</h1>
-                    <h2 className="text-3xl md:text-7xl font-bold lg:pl-40 mb-2">Sushi, <span className="text-yellow-custom">seafood</span> & salads</h2>
-                    <p className="text-lg md:text-2xl text-gray-bg lg:pl-40 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris euismod suscipit ultrices. Nam elementum erat ac fermentum viverra.</p>
+                <div className="text-center lg:text-left mb-4">
+                    <h1 className="text-8xl mb-6">LUXO ESTILO DE VIDA E POTENCIA</h1>
+                    <p className="text-sm md:text-lg text-gray-bg font-bold mb-4">Alugue carros potentes e luxuosos.</p>
+                    <p className="mb-4">R$ 5,000 / Por Dia</p>
+                    <button className="border border-yellow-custom p-2 px-4">
+                        Alugar
+                    </button>
                 </div>
             </div>
             <div className="w-full lg:w-1/2">
