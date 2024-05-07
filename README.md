@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Exotics
 
-## Getting Started
+![image 1](https://github.com/VictorBravim/Exotics/assets/122113588/de356fdb-77ff-4835-bd3d-a0ecb3223ec6)
 
-First, run the development server:
+## <code>Visão Geral</code>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Esta documentação descreve um projeto web construído usando React e Next.js, destinado a criar um site para aluguel de carros de luxo. O site inclui várias seções, como navegação, seções de destaque (hero), exibição de carros disponíveis e formulário de contato.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## <code>Tecnologias Utilizadas</code>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Next.js: Framework React para desenvolvimento web.
+- React: Biblioteca JavaScript para criação de interfaces de usuário.
+- TypeScript: Superset de JavaScript com tipagem estática.
+- Tailwind CSS: Framework CSS para estilização rápida e responsiva.
+- React Slick: Componente React para implementar um carrossel de imagens.
+- Next/Image: Componente Next.js para otimização de imagens.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## <code>Configurações Adicionais</code>
 
-## Learn More
+- O projeto utiliza o Tailwind CSS para estilização rápida e responsiva, com classes aplicadas diretamente nos elementos (className).
+- Para otimização de imagens, o Next.js Image component (next/image) é utilizado.
+- A responsividade é tratada com base no tamanho da tela (isMobile), adaptando o conteúdo conforme necessário.
 
-To learn more about Next.js, take a look at the following resources:
+## <code>Como Executar o Projeto</code>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Clone o repositório do projeto.
+   
+2. Instale as dependências usando npm install ou yarn install.
+   
+3. Execute o projeto localmente com npm run dev ou yarn dev.
