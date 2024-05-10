@@ -1,30 +1,45 @@
-# Exotics
+# 🚗 Exotics
 
-![image 1](https://github.com/VictorBravim/Exotics/assets/122113588/de356fdb-77ff-4835-bd3d-a0ecb3223ec6)
+![334shots_so](https://github.com/VictorBravim/Exotics/assets/122113588/82abe6e1-7dad-4ebb-b8cf-70fd9214cd1a)
 
-## <code>Visão Geral</code>
+## 🚀 Overview
 
-Esta documentação descreve um projeto web construído usando React e Next.js, destinado a criar um site para aluguel de carros de luxo. O site inclui várias seções, como navegação, seções de destaque (hero), exibição de carros disponíveis e formulário de contato.
+This documentation describes a web project built using React and Next.js, intended to create a website for luxury car rentals. The website includes several sections such as navigation, featured sections (hero), display of available cars, and contact form.
 
-## <code>Tecnologias Utilizadas</code>
+## 📋 Requirements
 
-- Next.js: Framework React para desenvolvimento web.
-- React: Biblioteca JavaScript para criação de interfaces de usuário.
-- TypeScript: Superset de JavaScript com tipagem estática.
-- Tailwind CSS: Framework CSS para estilização rápida e responsiva.
-- React Slick: Componente React para implementar um carrossel de imagens.
-- Next/Image: Componente Next.js para otimização de imagens.
+- Node.js
+- npm ou yarn
 
-## <code>Configurações Adicionais</code>
+## 🔧 Installation
 
-- O projeto utiliza o Tailwind CSS para estilização rápida e responsiva, com classes aplicadas diretamente nos elementos (className).
-- Para otimização de imagens, o Next.js Image component (next/image) é utilizado.
-- A responsividade é tratada com base no tamanho da tela (isMobile), adaptando o conteúdo conforme necessário.
-
-## <code>Como Executar o Projeto</code>
-
-1. Clone o repositório do projeto.
+1. Clone the Repository:
    
-2. Instale as dependências usando npm install ou yarn install.
+```
+git clone https://github.com/VictorBravim/Exotics.git
+```
+
+2. Navigate to the project directory:
    
-3. Execute o projeto localmente com npm run dev ou yarn dev.
+```
+cd Exotics
+```
+
+2. Install Dependencies:
+   
+```
+npm install
+# ou
+yarn install
+```
+
+## 🛠️ Project Structure
+
+- components/: Contains the reusable React components used in different parts of the website.
+- pages/: Contains the React pages that are rendered in specific routes.
+- public/: Contains static files such as images and fonts.
+- styles/: Contains global styles files and Tailwind CSS settings.
+
+## 📄 License
+
+- This project is licensed under the [MIT License](LICENSE).
