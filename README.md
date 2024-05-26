@@ -1,6 +1,6 @@
 # 🚗 Exotics
 
-![334shots_so](https://github.com/VictorBravim/Exotics/assets/122113588/82abe6e1-7dad-4ebb-b8cf-70fd9214cd1a)
+![image 8](https://github.com/VictorBravim/Exotics/assets/122113588/f55f83e1-11e0-4ed7-8463-5074318bdb4e)
 
 ## 🚀 Overview
 
